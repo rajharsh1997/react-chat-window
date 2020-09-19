@@ -3,10 +3,12 @@ import FileIcon from './../icons/FileIcon';
 
 
 const FileMessage = (props) => {
+  const isImage = /\.(jpeg|jpg|gif|png|JPEG|JPG|GIF|PNG)$/.test(props.data.url)
   return (
     <a className="sc-message--file" href={props.data.url} download={props.data.fileName}>
-      <FileIcon />
-      <p>{props.data.fileName}</p>
+      { isImage ? <img src={props.data.url} /> : <span><FileIcon /><p className="fileName">{props.data.fileName}</p>
+      </span>
+      }
     </a>
   );
 };
