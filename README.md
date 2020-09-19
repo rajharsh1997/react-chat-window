@@ -4,7 +4,7 @@ This repo is not actively maintained or developed by kingofthestack. PRs, issues
 
 Thank you for the support over the years for RCW! We appologize for the inconvenience.
 
-# react-chat-window
+# react-chat-window-with-image-view (clone of react-chat-window React component but can see the image view in chat)
 
 `react-chat-window` provides an intercom-like chat window that can be included easily in any project for free. It provides no messaging facilities, only the view component.
 

@@ -1,7 +1,7 @@
 {
-  "name": "react-chat-window",
-  "version": "1.2.0",
-  "description": "react-chat-window React component",
+  "name": "react-chat-window-with-image-view",
+  "version": "1.0.0",
+  "description": "clone of react-chat-window React component but can see the image view in chat",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -37,11 +37,10 @@
     "react-dom": "15.6.1"
   },
   "author": "kingofthestack",
-  "homepage": "https://kingofthestack.github.io/react-chat-window/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kingofthestack/react-chat-window.git"
+    "url": "https://github.com/SIMRAN88/react-chat-window.git"
   },
   "keywords": [
     "react-component"
